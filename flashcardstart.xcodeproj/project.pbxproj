@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1838051E94836900AC74AB /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1838041E94836900AC74AB /* SecondScreenViewController.swift */; };
+		BA1F364E1EA6E51D00E985BD /* ding.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BA1F364D1EA6E51D00E985BD /* ding.m4a */; };
 		BACB2AE51E81F77E00454FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACB2AE41E81F77E00454FC1 /* AppDelegate.swift */; };
-		BACB2AE71E81F77E00454FC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACB2AE61E81F77E00454FC1 /* ViewController.swift */; };
+		BACB2AE71E81F77E00454FC1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACB2AE61E81F77E00454FC1 /* HomeViewController.swift */; };
 		BACB2AEA1E81F77E00454FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACB2AE81E81F77E00454FC1 /* Main.storyboard */; };
 		BACB2AEC1E81F77E00454FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACB2AEB1E81F77E00454FC1 /* Assets.xcassets */; };
 		BACB2AEF1E81F77E00454FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACB2AED1E81F77E00454FC1 /* LaunchScreen.storyboard */; };
 		BACB2AFA1E81F77E00454FC1 /* flashcardstartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACB2AF91E81F77E00454FC1 /* flashcardstartTests.swift */; };
 		BACB2B051E81F77E00454FC1 /* flashcardstartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACB2B041E81F77E00454FC1 /* flashcardstartUITests.swift */; };
+		BACF7BB51EAD5B5D0061636E /* ExplanationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF7BB41EAD5B5D0061636E /* ExplanationViewController.swift */; };
+		BACF7BB81EB971D70061636E /* swoosh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BACF7BB71EB971D70061636E /* swoosh.m4a */; };
+		BACF7BBA1EB982DD0061636E /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF7BB91EB982DD0061636E /* PopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA1838041E94836900AC74AB /* SecondScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		BA1F364D1EA6E51D00E985BD /* ding.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ding.m4a; sourceTree = "<group>"; };
 		BACB2AE11E81F77E00454FC1 /* flashcardstart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flashcardstart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACB2AE41E81F77E00454FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BACB2AE61E81F77E00454FC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BACB2AE61E81F77E00454FC1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BACB2AE91E81F77E00454FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BACB2AEB1E81F77E00454FC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BACB2AEE1E81F77E00454FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		BACB2B001E81F77E00454FC1 /* flashcardstartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flashcardstartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACB2B041E81F77E00454FC1 /* flashcardstartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flashcardstartUITests.swift; sourceTree = "<group>"; };
 		BACB2B061E81F77E00454FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACF7BB41EAD5B5D0061636E /* ExplanationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplanationViewController.swift; sourceTree = "<group>"; };
+		BACF7BB71EB971D70061636E /* swoosh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swoosh.m4a; sourceTree = "<group>"; };
+		BACF7BB91EB982DD0061636E /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA1F364C1EA6E4DA00E985BD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BACF7BB71EB971D70061636E /* swoosh.m4a */,
+				BA1F364D1EA6E51D00E985BD /* ding.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		BACB2AD81E81F77D00454FC1 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +117,15 @@
 			isa = PBXGroup;
 			children = (
 				BACB2AE41E81F77E00454FC1 /* AppDelegate.swift */,
-				BACB2AE61E81F77E00454FC1 /* ViewController.swift */,
+				BACB2AE61E81F77E00454FC1 /* HomeViewController.swift */,
 				BACB2AE81E81F77E00454FC1 /* Main.storyboard */,
+				BACF7BB91EB982DD0061636E /* PopUpViewController.swift */,
 				BACB2AEB1E81F77E00454FC1 /* Assets.xcassets */,
 				BACB2AED1E81F77E00454FC1 /* LaunchScreen.storyboard */,
 				BACB2AF01E81F77E00454FC1 /* Info.plist */,
+				BA1838041E94836900AC74AB /* SecondScreenViewController.swift */,
+				BACF7BB41EAD5B5D0061636E /* ExplanationViewController.swift */,
+				BA1F364C1EA6E4DA00E985BD /* Sounds */,
 			);
 			path = flashcardstart;
 			sourceTree = "<group>";
@@ -193,13 +216,17 @@
 				TargetAttributes = {
 					BACB2AE01E81F77D00454FC1 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TP8CSW78S9;
+						LastSwiftMigration = 0830;
 					};
 					BACB2AF41E81F77E00454FC1 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = BACB2AE01E81F77D00454FC1;
 					};
 					BACB2AFF1E81F77E00454FC1 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = BACB2AE01E81F77D00454FC1;
 					};
 				};
@@ -229,9 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1F364E1EA6E51D00E985BD /* ding.m4a in Resources */,
 				BACB2AEF1E81F77E00454FC1 /* LaunchScreen.storyboard in Resources */,
 				BACB2AEC1E81F77E00454FC1 /* Assets.xcassets in Resources */,
 				BACB2AEA1E81F77E00454FC1 /* Main.storyboard in Resources */,
+				BACF7BB81EB971D70061636E /* swoosh.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BACB2AE71E81F77E00454FC1 /* ViewController.swift in Sources */,
+				BACF7BBA1EB982DD0061636E /* PopUpViewController.swift in Sources */,
+				BACF7BB51EAD5B5D0061636E /* ExplanationViewController.swift in Sources */,
+				BA1838051E94836900AC74AB /* SecondScreenViewController.swift in Sources */,
+				BACB2AE71E81F77E00454FC1 /* HomeViewController.swift in Sources */,
 				BACB2AE51E81F77E00454FC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,10 +431,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TP8CSW78S9;
 				INFOPLIST_FILE = flashcardstart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slackey.flashcardstart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -410,10 +444,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TP8CSW78S9;
 				INFOPLIST_FILE = flashcardstart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slackey.flashcardstart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +461,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slackey.flashcardstartTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashcardstart.app/flashcardstart";
 			};
 			name = Debug;
@@ -437,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slackey.flashcardstartTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flashcardstart.app/flashcardstart";
 			};
 			name = Release;
@@ -448,6 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slackey.flashcardstartUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = flashcardstart;
 				USES_XCTRUNNER = YES;
 			};
@@ -460,6 +499,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.slackey.flashcardstartUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = flashcardstart;
 				USES_XCTRUNNER = YES;
 			};
@@ -484,6 +524,7 @@
 				BACB2B0B1E81F77E00454FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BACB2B0C1E81F77E00454FC1 /* Build configuration list for PBXNativeTarget "flashcardstartTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +533,7 @@
 				BACB2B0E1E81F77E00454FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BACB2B0F1E81F77E00454FC1 /* Build configuration list for PBXNativeTarget "flashcardstartUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +542,7 @@
 				BACB2B111E81F77E00454FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
